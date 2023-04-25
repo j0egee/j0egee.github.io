@@ -1,3 +1,49 @@
 body {
     background-color: antiquewhite;
 }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav li {
+    float: right;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: #111;
+}
+.picture {
+    width: 250px;
+    height: 250px;
+    padding-left: 15%;
+    float: left;
+    position: relative;
+}
+.mepic {
+    display: block;
+    width: 250px;
+    height: 250px;
+}
+.name{
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutme {
+    width: 1000px;
+    padding: 30px;
+    margin-right: 7%;
+    float: right;
+    text-align: center;
+    font-size: 18px;
+
+}
