@@ -37,6 +37,8 @@ nav li a:hover {
     text-align: center;
     font-size: 27px;
     font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    padding: 5px;
 }
 .aboutme {
     width: 1000px;
