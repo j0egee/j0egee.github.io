@@ -62,20 +62,20 @@ footer a {
     width: 50%;
     height: auto;
 }
-#main {
+div#main {
     border: solid black 3px;
     margin: auto;
     width: 90%;
     height: auto;
     clear: both;
 }
-#left {
+div#left {
     width: 50%;
     float: left;
     clear: none;
     text-align: center;
 }
-#right {
+div#right {
     text-align: justify;
     float: right;
     width: 45%;
