@@ -66,18 +66,22 @@ div#main {
     border: solid black 3px;
     margin: auto;
     width: 90%;
-    height: auto;
     clear: both;
 }
-div#left {
-    width: 50%;
-    float: left;
-    clear: none;
-    text-align: center;
+table {
+    width: 95%;
+    margin: auto;
 }
-div#right {
+table th {
+    width: 50%;
+}
+table th p {
     text-align: justify;
-    float: right;
-    width: 45%;
-    padding-right: 3%;
+    font-weight: 500;
+}
+table th {
+    border-bottom: #111 dashed 2px;
+}
+.tbottom {
+    border-bottom: unset !important; 
 }
