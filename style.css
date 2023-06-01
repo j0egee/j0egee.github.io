@@ -1,6 +1,8 @@
 body {
     background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -8,9 +10,11 @@ nav ul {
     overflow: hidden;
     background-color: #333;
 }
+
 nav li {
     float: right;
 }
+
 nav li a {
     display: block;
     color: white;
@@ -18,9 +22,11 @@ nav li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 nav li a:hover {
     background-color: #111;
 }
+
 .picture {
     width: 250px;
     height: 250px;
@@ -28,18 +34,32 @@ nav li a:hover {
     float: left;
     position: relative;
 }
+
 .mepic {
     display: block;
     width: 250px;
     height: 250px;
 }
-.name{
+
+.name {
     text-align: center;
     font-size: 27px;
     font-family: 'Times New Roman', Times, serif;
     margin: auto;
     padding: 5px;
 }
+
+.year {
+    height: 130px;
+    width: auto;
+    margin: auto;
+}
+
+.yeard {
+    width: 100%;
+    display: flex;
+}
+
 .aboutme {
     width: 1000px;
     padding: 30px;
@@ -48,40 +68,49 @@ nav li a:hover {
     text-align: center;
     font-size: 18px;
 }
+
 footer {
     background-color: #333;
     color: white;
     padding: 6px;
-    clear:both;
+    clear: both;
 }
+
 footer a {
     color: white;
     font-weight: 200;
 }
+
 .report {
     width: 50%;
     height: auto;
 }
+
 div#main {
     border: solid black 3px;
     margin: auto;
     width: 90%;
     clear: both;
 }
+
 table {
     width: 95%;
     margin: auto;
 }
+
 table th {
     width: 50%;
 }
+
 table th p {
     text-align: justify;
     font-weight: 500;
 }
+
 table th {
     border-bottom: #111 dashed 2px;
 }
+
 .tbottom {
-    border-bottom: unset !important; 
+    border-bottom: unset !important;
 }
