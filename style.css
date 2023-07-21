@@ -28,17 +28,18 @@ nav li a:hover {
 }
 
 .picture {
-    width: 250px;
-    height: 250px;
-    padding-left: 15%;
+    width: 35%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
     float: left;
     position: relative;
 }
 
 .mepic {
     display: block;
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: auto;
 }
 
 .name {
@@ -61,9 +62,9 @@ nav li a:hover {
 }
 
 .aboutme {
-    width: 1000px;
+    width: 50%;
     padding: 30px;
-    margin-right: 7%;
+    margin: auto;
     float: right;
     text-align: center;
     font-size: 18px;
