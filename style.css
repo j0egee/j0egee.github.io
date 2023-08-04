@@ -28,12 +28,12 @@ nav li a:hover {
 }
 
 .picture {
-    width: 35%;
+    width: 40%;
     height: auto;
     padding: 10px;
     margin: auto;
     float: left;
-    position: relative;
+    
 }
 
 .mepic {
@@ -61,12 +61,12 @@ nav li a:hover {
     display: flex;
 }
 
-.aboutme {
+.sideText {
     width: 50%;
     padding: 30px;
     margin: auto;
     float: right;
-    text-align: center;
+    text-align: justify;
     font-size: 18px;
 }
 
